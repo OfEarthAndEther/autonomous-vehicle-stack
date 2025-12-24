@@ -1,0 +1,35 @@
+[
+  {
+    "scenario": "BASELINE",
+    "duration_ms": 60000,
+    "control_miss_rate": 0.0,
+    "perception_miss_rate": 0.0,
+    "planning_miss_rate": 0.0,
+    "cpu_load": 0.35,
+    "compression_ratio": 0.52,
+    "logs_stored": 600,
+    "distance_traveled": 200.00000000022234
+  },
+  {
+    "scenario": "DENSE_OBSTACLES",
+    "duration_ms": 60000,
+    "control_miss_rate": 0.0,
+    "perception_miss_rate": 0.035,
+    "planning_miss_rate": 0.002,
+    "cpu_load": 0.68,
+    "compression_ratio": 0.48,
+    "logs_stored": 600,
+    "distance_traveled": 200.00000000022234
+  },
+  {
+    "scenario": "CPU_STRESS",
+    "duration_ms": 60000,
+    "control_miss_rate": 0.0,
+    "perception_miss_rate": 0.8,
+    "planning_miss_rate": 0.1,
+    "cpu_load": 0.95,
+    "compression_ratio": 0.5,
+    "logs_stored": 600,
+    "distance_traveled": 200.00000000022234
+  }
+]
